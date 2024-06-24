@@ -1,0 +1,22 @@
+# Ignore all .log files
+*.log
+
+# Ignore the node_modules directory
+NeuralChat-client/node_modules/
+Keyboard-Auto-Suggestion-NLP-Python-Project-main/.venv
+Keyboard-Auto-Suggestion-NLP-Python-Project-main/myenv
+Keyboard-Auto-Suggestion-NLP-Python-Project-main/glove.6B.50d.txt
+Keyboard-Auto-Suggestion-NLP-Python-Project-main/
+
+
+# Ignore all .DS_Store files (macOS)
+.DS_Store
+
+# Ignore all compiled Python files
+*.pyc
+
+# Ignore the dist directory
+dist/
+
+# Ignore environment variable files
+.env
