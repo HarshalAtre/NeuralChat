@@ -109,7 +109,7 @@ const Chat = ({ chatId, user }) => {
       } else {
         setSuggestions([]);
       }
-    }, 1));
+    }, 500));
     if (!IamTyping) {
       
 
