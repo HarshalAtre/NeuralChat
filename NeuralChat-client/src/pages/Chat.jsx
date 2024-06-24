@@ -99,7 +99,7 @@ const Chat = ({ chatId, user }) => {
 
       if (keyword.trim()) {
         try {
-          const response = await axios.post('http://127.0.0.1:5000/suggest', { keyword });
+          const response = await axios.post('https://neuralchat-ml.onrender.com/suggest', { keyword });
           setSuggestions(response.data.suggestions);
           setSelectedIndex(-1); // Reset the selected index
           console.log(response.data.suggestions);
@@ -155,7 +155,7 @@ const Chat = ({ chatId, user }) => {
     if(e.target.value.trim()){
       console.log(e.target.value.trim())
     try {
-      const response = await axios.post('http://localhost:5000/predict', { text: newText });
+      const response = await axios.post('https://neuralchat-ml.onrender.com/predict', { text: newText });
       console.log(response.data.predicted_emoji)
       setPredictedEmoji(response.data.predicted_emoji);
     } catch (error) {
