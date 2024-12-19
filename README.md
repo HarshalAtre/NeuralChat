@@ -2,6 +2,9 @@
 
 NeuralChat is an advanced chat application that seamlessly combines real-time communication with machine learning features to enhance user interaction. The app includes functionalities like "Auto-Suggestion," which provides accurate text predictions as users type, and "Emojify," a tool that suggests relevant emojis based on sentence context. With these innovations, NeuralChat not only facilitates instant messaging but also elevates the overall user experience.
 
+**CLICK ON IMAGE TO WATCH VIDEO**
+[![Watch the demo video](https://i.imgur.com/OwbhR58.png)](https://drive.google.com/file/d/1FXjANDZtY2hIl4LmhhZeCVcE9YCGl8CB/view)
+
 ## Key Features
 
 ### Real-Time Communication
